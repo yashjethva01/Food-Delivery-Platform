@@ -1,5 +1,24 @@
+# Dependencies
 node_modules/
+**/node_modules/
+
+# Build files
 dist/
+**/dist/
+
+# Environment files
 .env
-build/
-.next/
+**/.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
