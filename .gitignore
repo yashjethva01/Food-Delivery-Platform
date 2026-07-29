@@ -1,13 +1,10 @@
 # Dependencies
-node_modules/
 **/node_modules/
 
-# Build files
-dist/
+# Build output
 **/dist/
 
 # Environment files
-.env
 **/.env
 
 # Logs
@@ -16,9 +13,3 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
-
-# TypeScript
-*.tsbuildinfo
